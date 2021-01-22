@@ -1,0 +1,16 @@
+.contenair {
+    border: 2px solid noir;
+    height: 200px;
+    background: url(img.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+p {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}

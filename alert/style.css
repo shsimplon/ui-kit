@@ -1,0 +1,99 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        section {
+            background: black;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            /* justify-content: center;
+            align-items: center; */
+        }
+        
+        html {
+            font-size: 68, 5%;
+            font-family: 1rem'Open Sans Condensed', sans-serif;
+        }
+        
+        p {
+            font-weight: lighter;
+        }
+        
+        .gras {
+            font-weight: bold;
+        }
+        
+        .aqua {
+            color: aqua;
+        }
+        
+        .flex {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .contenair {
+            background-color: rgb(244, 246, 247);
+            /* margin-top: 25px; */
+            border: 2px solid rgb(244, 246, 247);
+            /* -webkit-user-select: none;
+        /* width: 1125px; */
+            height: 300px;
+            width: 1125px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        /*     
+    .contenair:hover {
+        -webkit-transform: scale(1.5);
+        cursor: zoom-in;
+    } */
+        
+        */
+        /* 
+.contenair:hover {
+    background-size: 150%;
+    background-position: center;
+} */
+        
+        .alert {
+            margin-left: 2%;
+            margin-right: 2%;
+            margin-bottom: 10%;
+        }
+        
+        img {
+            border: 2px solid white;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+        }
+        
+        .vert,
+        .rouge,
+        .jaune {
+            background-color: white;
+            border: 2px solid green;
+            margin-left: 2%;
+            margin-right: 2%;
+            align-items: center;
+            padding-right: 5%;
+            padding-left: 5%;
+            height: 70px;
+            border-radius: 5px;
+            box-shadow: 10px 10px 8px rgba #888888(0.1);
+            border-radius: 5px;
+        }
+        
+        .rouge {
+            border: 2px solid red;
+            margin-bottom: 2%;
+        }
+        
+        .jaune {
+            border: 2px solid yellow;
+        }
