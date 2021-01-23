@@ -9,8 +9,6 @@
             width: 100vw;
             height: 100vh;
             display: flex;
-            /* justify-content: center;
-            align-items: center; */
         }
         
         html {
@@ -37,28 +35,13 @@
         
         .contenair {
             background-color: rgb(244, 246, 247);
-            /* margin-top: 25px; */
             border: 2px solid rgb(244, 246, 247);
-            /* -webkit-user-select: none;
-        /* width: 1125px; */
             height: 300px;
             width: 1125px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
         }
-        /*     
-    .contenair:hover {
-        -webkit-transform: scale(1.5);
-        cursor: zoom-in;
-    } */
-        
-        */
-        /* 
-.contenair:hover {
-    background-size: 150%;
-    background-position: center;
-} */
         
         .alert {
             margin-left: 2%;

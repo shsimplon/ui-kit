@@ -1,0 +1,24 @@
+        .contenair {
+            border: 2px solid black;
+            height: 100px;
+            display: flex;
+            justify-content: space-around;
+            background: #d1cbcb;
+        }
+        
+        .icons {
+            display: flex;
+            align-items: flex-start;
+            gap: 25px;
+            margin: auto;
+        }
+        
+        img {
+            width: 20px;
+            height: 20px;
+        }
+        
+        p {
+            margin: auto;
+            color: grey;
+        }

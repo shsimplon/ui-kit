@@ -1,0 +1,28 @@
+body {
+    padding-left: 50px;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    color: white;
+    background: #16c79a;
+    border: #16c79a;
+    border-radius: 5px;
+}
+
+div {
+    background-image: url(image.png);
+    height: 400px;
+    width: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 50px;
+    color: white;
+}
+
+h1 {
+    font-size: 20px;
+}
